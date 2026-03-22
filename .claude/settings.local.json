@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm view:*)",
+      "Bash(node -e \"process.stdin.resume\\(\\);let d='''''''';process.stdin.on\\(''''data'''',c=>d+=c\\);process.stdin.on\\(''''end'''',\\(\\)=>{const v=JSON.parse\\(d\\);const v1=v.filter\\(x=>x.startsWith\\(''''1.''''\\)\\);console.log\\(''''Latest v1:'''',v1[v1.length-1]\\);const v0=v.filter\\(x=>x.startsWith\\(''''0.''''\\)\\);console.log\\(''''Latest v0:'''',v0[v0.length-1]\\);}\\)\")",
+      "Bash(npm install:*)",
+      "mcp__playwright"
+    ]
+  }
+}
